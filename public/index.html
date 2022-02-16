@@ -1,1 +1,67 @@
-Hello world
+<!DOCTYPE html>
+
+<html lang ="en" id="main_document" class="main_doc">
+
+<head>
+    <title>First Page</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name = "viewport" content="width=devide-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    
+</head>
+
+<body>
+    <header>
+    <div class="header_div">
+        <h1 id="page_title">Speed dating</h1>
+
+    </div>
+    </header>
+
+    <main>
+        <section id="register_info">
+            <h2>Register</h2>
+            <form action="register">
+                <p>
+                    <label for="name">Name: </label>
+                    <input type="text" class="text_input" id="username" name="username" placeholder="First and Last name" required="required">
+                </p>
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="email" class="text_input"  id="email" name="email" placeholder="@gmail.com" required="required">
+                </p>
+                <p>
+                    <label for="phone_number">Phone Number: </label>
+                    <input type="tel" class="tel_number" id="tel" required="required" placeholder="+46">
+                </p>
+                <p>
+                    <label for="age">Age: </label>
+                    <input type="number" id="age" required="required">
+                </p>
+                <p>
+                    <label for="gender">Male: </label>
+                    <input type="radio" id="male" name="gender" value="male">
+                </p>
+                <p>
+                    <label for="gender">Female: </label>
+                    <input type="radio" id="female" name="gender" value="female">
+                </p>
+            </form>
+            <button type="submit" id="submit_btn" onclick="btn_click()" />
+            <img src="img/MW-Icon-CheckMark.svg.png" class="img_on_button"/>
+                    Submit &
+                    <a href="index2.html">Click here to continue!</a>;
+            </button>
+            <p id="order_status"></p>
+            </section>
+    </main>
+
+    <footer>
+        <hr>
+        &copy; <a href="https://www.systembolaget.se/produkt/ol/arboga-102-1139212/">2022 Arboga 10,2 & Co</a> 
+    </footer>
+</body>
+</html>

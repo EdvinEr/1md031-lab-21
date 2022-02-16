@@ -1,1 +1,11 @@
-/*empty*/
+.header_div{
+    text-align: center;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img_on_button {
+    width: 25px;
+}
